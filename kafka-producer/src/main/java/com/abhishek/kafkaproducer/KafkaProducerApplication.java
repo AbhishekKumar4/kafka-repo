@@ -18,6 +18,6 @@ public class KafkaProducerApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		kafkaProducer.sendMessage("Abhishek" + Math.random());
+		kafkaProducer.sendMessage("Abhishek : " + Math.random());
 	}
 }
